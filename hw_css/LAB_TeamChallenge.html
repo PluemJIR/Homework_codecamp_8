@@ -4,19 +4,22 @@
         <title>LAB - Team Challenge</title>
         <style>
             .container {
-                display: block;
+                width: 450px;
                 border: 5px solid gainsboro;
                 border-radius: 5px;
                 background-color: white;
                 color: black
-
             }
             .subcontainer {
+                display: grid;
+                grid-template-columns: 120px 160px 100px;
+                grid-template-rows:  auto auto auto auto auto auto auto auto auto;
+                grid-gap: 5px;
                 margin-top: 25px;
                 margin-left: 20px;
-                display : block;
-                height: 280px;
-                width: 80%
+                margin-bottom: 15px;
+                height: auto;
+                width: auto;
                 
             }         
             .formsetup{
@@ -24,33 +27,70 @@
                 padding: 8px;
                 background-color:gainsboro;
             }   
+            .formsetup {
+                grid-column: 1/4;
+                width: auto;
+            }
+            .input {
+                width: 150px;
+                
+            }
+            .inputscore {
+                grid-column: 2/4;
+            }
+            .inputurl {
+                width:75px;
+                justify-self:
+            }
+            .Questionmark {
+                width: 20px;
+                height: 20px;
+                font-size: 13px;
+                   
+            }
+            .edit {
+                width: 40px;
+                height: 20px;
+                font-size: 13px;
+                   
+            }
         </style>
     </head>
     <body>
         <div class="container">
             <div class="subcontainer">
                 <label for="Name">Name*:</label>
-                <input class="input"><br>
+                <input class="input">
+                <button class="Questionmark" type="button">?</button>
                 <label for="lname">Tab Text*:</label>
-                <input class="input"><br>
+                <input class="input">
+                <button class="Questionmark" type="button">?</button>
                 <label for="lname">URL*:</label>
-                <input class="inputurl"><br>
-                <br>
-                <div class="formsetup">FORM SETUP</div><br>
+                <div>http://www.wizehive.com/webform/</div>
+                <input class="inputurl">
+                <div class="formsetup">FORM SETUP</div>
                 <label for="Name">Form:</label>
-                <input class="input"><br>
+                <input class="input" >
+                <button class = "edit" type="button">Edit</button>
                 <label for="Name">Logo:</label>
-                <input class="input"><br>
+                <label>no logo uploaded</label>
+                <button type="button">Upload Logo</button>
                 <label for="Name">Template Text:</label>
-                <input class="input"><br>
+                <input class="input">
+                <button class="edit" type="button">Edit</button>
                 <label for="Name">Review Form:</label>
-                <input class="input"><br>
+                <input class="input">
+                <div></div>
                 <label for="Name">Review Score:</label>
-                <input class="input"><br>
+                <input class="input">
+                <button type="button">Reload Fields</button>
                 <label for="Name">Scoring Type:</label>
-                <input class="input"><br>
+                <input class="inputscore" style="width:50px">
                 <label for="Name">Max Score:</label>
-                <input class="input"><br>
+                
+                <input class="input">
+                
+
                
             </div>
         </div>

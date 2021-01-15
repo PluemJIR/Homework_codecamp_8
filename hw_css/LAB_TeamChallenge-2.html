@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LAB - Team Challenge - Nike</title>
+        <style>
+            .container {
+                color:black;
+                font-family: sans-serif;
+                background-color: white;
+            }
+            .tab1 {
+                display: flex;
+                background-color:rgb(235, 226, 226);
+                width: 100%;
+                height: 30px;
+                align-items: center;
+            }
+            .tab2 {
+                display: flex;
+                background-color: white;
+                height:45px;
+                align-items: center;
+            }
+            .subtab2-1 {
+                display: flex;
+                justify-content: space-around;
+            }
+            .subtab2-2 {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center ;
+            }
+            .tab3 {
+                display: flex;
+                background-color: rgb(228, 220, 220);
+                height: 45px;
+                justify-content: space-around;
+                align-items: center;
+            }
+            .subcontainer {
+                margin-left: 100px  ;
+                margin-right: 100px;
+            }
+            .billboard1 {
+                display: flex;
+                justify-content: center;
+            }
+            .gridcontent {
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
+                grid-gap: 10px;
+            }
+            .kind {
+                display: flex;
+                grid-column: 1/3;
+                justify-content: space-around;
+                gap: 15px;
+            }
+            .header {
+                font-weight: bold;
+            }
+            .bottomtab {
+                display: flex;
+                grid-column: 1/3;
+                background-color: black;
+                width: auto;
+                height: 250px;
+                padding-left: 70px;
+                padding-top: 70px   ;
+            }
+            
+            .lowrighttab {
+                display: flex;
+                gap: 10px;
+                justify-content: flex-start;
+            }
+            .lowrighttab img {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+            .lasttab {
+                display: flex;
+                font-size: 10px;
+                grid-column: 1/3;
+                background-color: black;
+                width: auto;
+                height: 50px;
+                align-items:center;
+                padding-left:70px ;
+                color : white;
+            }
+            .lasttab img {
+                width: 20px;
+                height: 20px;
+            }
+
+            
+            
+            </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="tab1">
+                <div style="flex-grow: 3"></div>
+                <img src=" https://cdn.shortpixel.ai/spai/w_998+q_lossy+ret_img+to_webp/https://www.nicekicks.com/files/2014/10/air-jordan-logo.jpg"width="30"height="30">
+                <div style="flex-grow: 50"></div>
+                <div style="flex-grow: 1">ความช่วยเหลือ |</div>
+                <div style="flex-grow: 1">เข้าร่วมกับเรา |</div>
+                <div style="flex-grow: 1">ลงชื่อเข้าใช้</div>
+            </div>
+            <div class="tab2">
+                <div style="flex-grow: 0.15"></div>
+                <img src=" https://miro.medium.com/max/640/1*ibSJfQnBhSHmf0Sc_RfKbQ.png"width="60"height="30">
+                <div style="flex-grow: 1.7"></div>
+                <div class="subtab2-1" style="flex-grow:1 ">
+                    <div>ผู้ชาย</div>
+                    <div>ผู้หญิง</div>
+                    <div>เด็ก</div>
+                    <div>ออกแบบเอง</div>
+                </div>
+                <div style="flex-grow: 0.3"></div>
+                <div class="subtab2-2" style="flex-grow: 0.7;">
+                    <div style="background-color: grey;height: 35px;width: 200px;text-align:center;">
+                        Search
+                    </div>
+                    <img src="https://i.pinimg.com/originals/1f/a9/b8/1fa9b8dbd4d97b18104bdbdde35af2dd.jpg"width="30"height="30">
+                    <img src="https://i.pinimg.com/originals/8b/53/3e/8b533ec8c2c42776a6ed1c19b22c411b.jpg"width="40"height="40">
+                </div>
+            </div>
+            <div class="tab3">
+                <div>
+                    COVID-19: ข้อมูลเกี่ยวกับร้าน Nike และการจัดส่ง สามารถดูได้ที่นี่
+                </div>
+            </div>
+            <div class="subcontainer">
+                <div class ="billboard1">
+                    <img src="https://i2.wp.com/snkrtoday.com/wp-content/uploads/2021/01/The_Nike_React_Infinity_Run_2_100921.jpg?resize=1024%2C576&ssl=1"width="auto"height="auto">
+                </div>
+                <div style="height: 80px;"></div>
+                <div class ="gridcontent" style="margin-left: 50px;margin-right: 50px;">
+                    <div class ="trending1" style="font-size: 20px;grid-column: 1/3">กำลังฮิต</div>
+                    <div class ="trendingcontent1">
+                        <img src="https://i1.wp.com/snkrtoday.com/wp-content/uploads/2019/12/af1-chicago-no-cuts-no-glory-2_native_1600.jpg?resize=707%2C1024&ssl=1"width="500"height="600">
+                    </div>
+                    <div class ="trendingcontent2">
+                        <img src="https://sneakernews.com/wp-content/uploads/2020/12/jordan-why-not-zer0-4-upbringing-3.jpg?w=1140"width="500px"height="600px">
+                    </div>
+                    <div style="height: 30px;grid-column: 1/3"></div>
+                    <div class ="trending2" style="font-size: 20px;grid-column: 1/3">สินค้าเด่น</div>
+                    <div class ="trendingcontent3">
+                        <img src="https://www.tennis-point.com/on/demandware.static/-/Library-Sites-TennisPoint/en/dwfb294bb5/webflow/nike-melbourne-styles-2020/images/SP20_NC_NKyrgios_Still_005_04.jpg   "width="500px"height="600px">
+                    </div>
+                    <div class ="trendingcontent4">
+                        <img src="https://tennisconnected.com/home/wp-content/uploads/2020/01/IMG_6398-scaled-e1578242019748.jpg"width="500px"height="600px">
+                    </div>
+                    <div style="height: 30px;grid-column: 1/3"></div>
+                    <div class ="collection" style="font-size: 20px;grid-column: 1/3">เลือกซื้อคอลเลกชัน Icon Clash</div>
+                    <div class ="collection1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR43UK3pIWjVW-WV65G5Qv9in6ZWSIeZMF0dU0ygnsWSnR0v_yHxGXOwCRhMMry6xDSkFzsikf&usqp=CAc"width="250px"height="250px">
+                        <img src="data:image/jpeg;base64,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"width="250px"height="250px">
+                    </div>
+                    <div class ="collection2">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEU-Yx38GrbzgRssui1jzlFK_91DuVlJ5R1A&usqp=CAU"width="250px"height="250px">
+                        <img src="https://i1.adis.ws/t/jpl/jdth_product_list?plu=jd_CU4490-063_al&qlt=85&qlt=92&w=320&h=320&v=1"width="250px"height="250px">
+                    </div>
+                    <div style="height: 30px;grid-column: 1/3"></div>
+                    <div class ="more" style="font-size: 20px;grid-column: 1/3">อีกมากมายจาก Nike</div>
+                    <div class ="kind">
+                        <img src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/640fe694-8173-4cac-b20b-102a4e1071f7/sportswear-mens-metallic-t-shirt-HqVQn0.jpg"width="350px"height="500px">
+                        <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/5f880be9-b298-4aef-bda3-687a879ec66b/sportswear-tech-fleece-womens-crew-9Ncs1l.jpg"width="350px"height="500px">
+                        <img src="https://i.pinimg.com/originals/c3/2e/f1/c32ef156284d6bb2d9391fd5640b5699.jpg"width="350px"height="500px">
+                    </div>
+                    <div style="height: 30px;grid-column: 1/3"></div>
+                    <div class="iconshoes" style="display: flex; justify-content: flex-start;">
+                        <div class="icon" style="width:250px;height:250px;">
+                            <div class = "header">ไอคอน</div>
+                            <br>
+                            <div>Air Force 1</div>
+                            <br>
+                            <div>Huarache</div>
+                            <br>
+                            <div>Air Max 90</div>
+                            <br>
+                            <div>Air Max 95</div>
+                        </div>
+                        <div class="shoes" style="width:250px;height:250px;"> 
+                            <div class = "header">รองเท้า</div>
+                            <br>
+                            <div>รองเท้าทั้งหมด</div>
+                            <br>
+                            <div>รองเท้าออกแบบเอง</div>
+                            <br>
+                            <div>รองเท้า Jordan</div>
+                            <br>
+                            <div>รองเท้าวิ่ง</div>
+                        </div>
+                    </div>
+                    <div class="clotheskids" style="display: flex; justify-content: center;">
+                        <div class="icon" style="width:250px;height:250px;">
+                            <div class = "header">เสื้อผ้า</div>
+                            <br>
+                            <div>เสื้อผ้าทั้งหมด</div>
+                            <br>
+                            <div>ชุดสุภาพ</div>
+                            <br>
+                            <div>เสื้อมีฮู้ดและเสื้อแบบสวม</div>
+                            <br>
+                            <div>เสื้อ</div>
+                        </div>
+                        <div class="icon" style="width:250px;height:250px;">
+                            <div class = "header">สำหรับเด็ก</div>
+                            <br>
+                            <div>รองเท้าทารกและเด็กวัยหัดเดิน</div>
+                            <br>
+                            <div>รองเท้าเด็ก</div>
+                            <br>
+                            <div>รองเท้าเด็ก Jordan</div>
+                            <br>
+                            <div>รองเท้าบาสเก็ตบอลเด็ก</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="bottomtab">
+            <div class="lowertab" style="width:250px;height:250px;color:white">
+                <div>ค้นหาร้านค้า</div>
+                <br>
+                <div>สมัครเป็นสมาชิก</div>
+                <br>
+                <div>ลงทะเบียนเพื่อรับข่าวสาร</div>
+            </div>
+            <div class="lowertab" style="width:250px;height:250px;color:grey">
+                <div style="color: white;">รับความช่วยเหลือ</div>
+                <br>
+                <div>สถานะคำสั่งซื้อ</div>
+                <br>
+                <div>การส่งมอบ</div>
+                <br>
+                <div>การคืนสินค้า</div>
+                <br>
+                <div>ทางเลือกการชำระเงิน</div>
+                <br>
+                <div>ติดต่อเรา</div>
+            </div>
+            <div class="lowertab" style="width:250px;height:250px;color:grey">
+                <div style="color: white;">เกี่ยวกับ NIKE</div>
+                <br>
+                <div>ข่าวสาร</div>
+                <br>
+                <div>ร่วมงานกับเรา</div>
+                <br>
+                <div>ร่วมลงทุนกับเรา</div>
+                <br>
+                <div>ความยั่งยืน</div>
+                <br>
+            </div>
+            <div style="width:500px;height:250px;"></div>
+            <div class="lowrighttab" style="width:250px;height:250px;color:grey">
+                <img src="https://help.twitter.com/content/dam/help-twitter/brand/logo.png" >
+                <img src="https://www.beartai.com/wp-content/uploads/2016/10/official-facebook-logo-slide.jpg" >
+                <img src="https://yt3.ggpht.com/ytc/AAUvwnhEvcqvrxHv9WBTw0l43XAUoq2-uEf_VmXxNQDr-A=s900-c-k-c0x00ffffff-no-rj" >
+                <img src="https://www.baan-loong.com/wp-content/uploads/2018/01/ig-logo-email.png" >
+            </div>
+        </div>
+        <div style="height: 0.5px;grid-column: 1/3"></div>
+        <div class="lasttab">
+            <img src="https://pngimg.com/uploads/gps/gps_PNG22.png" >
+            <div style="width: 50px;">ไทย</div>
+            <div style="color:grey">2020 Nike, Inc. สงวนสิทธิ์</div>
+            <div style="width: 650px;"></div>
+            <div style="display: flex;gap: 20px;color: grey;">
+                <div>คำแนะนำ</div>
+                <div>เงื่อนไขการขาย</div>
+                <div>ข้อกำหนดการใช้</div>
+                <div>นโยบายความเป็นส่วนตัวของ Nike</div>
+            </div>
+        </div>
+    </body>
+</html>

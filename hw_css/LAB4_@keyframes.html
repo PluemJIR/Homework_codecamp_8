@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            .animation {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background-color: blueviolet;
+                animation-name: Cir;
+                animation-duration: 5s;
+            }
+            .animation2 {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background-color: tomato;
+                animation-name: Cle;
+                animation-duration: 10s;
+            }
+            @keyframes Cir {
+                from {
+                    background-color: skyblue;
+                    width: 90px;
+                    height: 90px;
+                    visibility: hidden;
+                }
+                to {
+                    background-color: springgreen;
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 0px;
+                    
+                }
+            }
+            @keyframes Cle {
+                0% {
+                    width: 100px;
+                    height: 100px;
+                    margin : auto;
+                    opacity: 0.2;
+                    border:10px solid green;
+                    position: :absolute;
+                }
+                30% {
+                    width: 100px;
+                    height: 100px;
+                    margin : auto;
+                    opacity: 0.2;
+                    border:10px solid green;
+                    position: :absolute;
+                    visibility: hidden;
+                }
+                50% {
+                    width : 150px;
+                    height:300px;
+                    margin: auto;
+                    opacity: 0.5;
+                    
+                }
+                100% {
+                    width: 0;
+                    height: 0;
+                    margin : auto;
+                    opacity: 1;
+                    border:1px solid yellow;
+                    position: relative;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="animation"  ></div>
+        <br>
+        <div class="animation2"></div>
+    </body>
+</html>

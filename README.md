@@ -14,4 +14,4 @@ ___
 ## Want to learn more about Codecamp ?   
 [Codecamp](https://www.facebook.com/CodeCampThailand)
 
-## Let's greater together 
+## Be Better together 

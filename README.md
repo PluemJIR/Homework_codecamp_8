@@ -8,7 +8,7 @@ ___
 ### *__From zero to HERO__*
 ____
 ## What should we have before ?
-#### I'm new for coding. So I have on only one software that is Visual Studio Code.
+#### I'm new for coding. So I have only one software to help me now.
 + Visual Studio Code (with a little add-ons)
 ___
 ## Want to learn more about Codecamp ?   

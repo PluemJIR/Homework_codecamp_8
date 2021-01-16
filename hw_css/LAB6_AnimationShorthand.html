@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            .animation {
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                border-radius: 50%;
+                background-color: white;
+                border:10px solid black;
+                animation: Cir alternate linear 10s 5s infinite;
+            }
+            @keyframes Cir {
+                0% {
+                    width: 100px;
+                    height: 100px;
+                    margin : auto;
+                    border:10px solid violet;
+                    
+                }
+                20% {
+                    width: 100px;
+                    height: 100px;
+                    margin : auto;
+                    border:10px solid blue;
+                }
+                40% {
+                    width : 150px;
+                    height:300px;
+                    margin: auto;
+                    border:10px solid green;
+                }
+                60% {
+                    width: 0;
+                    height: 0;
+                    margin : auto;
+                    opacity: 1;
+                    border:1px solid yellow;
+                    position: relative;
+                }
+                80% {
+                    width: 0;
+                    height: 0;
+                    margin : auto;
+                    opacity: 1;
+                    border:1px solid orange;;
+                    position: relative;
+                }
+                100% {
+                    width: 0;
+                    height: 0;
+                    margin : auto;
+                    opacity: 1;
+                    border:1px solid red;
+                    position: relative;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="animation" ></div>
+    </body>
+</html>

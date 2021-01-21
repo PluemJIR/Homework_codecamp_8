@@ -12,4 +12,4 @@ homework 3
 
 
 ## GITHUB.IO
-https://pluemjir.github.io/hw-html-2_Booking/
+https://pluemjir.github.io/hw-html-3_Phonebook/

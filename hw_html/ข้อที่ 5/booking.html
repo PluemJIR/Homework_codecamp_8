@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LAB 3 Pizza Order Form</title>
+        <style>
+            .container {
+                /* border: 2px solid black; */
+                width: 320px;
+                height: 180px;
+                border: 2px solid  #ccc ;
+                border-radius: 5px
+                pad
+            }
+            table, th, td {
+                border-collapse: collapse;
+                width: 320px;
+                /* border:1px solid black; */
+                height: 25px;
+            }
+            th {
+                text-align: left;
+            }
+            td {
+                text-align: center;
+            }
+            select {
+                width: 80%;
+                padding: 5px 5px;
+                margin: 0px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type=date] {
+                width: 80%;
+                padding: 5px 5px;
+                margin: 0px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type=number] {
+                width: 80%;
+                padding: 5px 5px;
+                margin: 0px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+            }
+            input[type=submit] {
+                width: 60px;
+                padding: 5px 5px;
+                margin: 10px 5px;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                background-color: coral
+            }
+            .footer {
+                background-color: rgb(226, 218, 218);
+                width: 324px;
+                /* border: 2px solid white; */
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <table>
+                <tr>
+                    <th colspan="2">Flying from</th>
+                    <th colspan="2">To</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <select name="From">
+                            <option value="Chiang Mai">Chiang Mai</option>
+                            <option value="Chiang Rai">Chiang Rai</option>
+                            <option value="Phitsanulok">Phitsanulok</option>
+                        </select>
+                    </td>
+                    <td colspan="2">
+                        <select name="To">
+                            <option value="Tak">Tak</option>
+                            <option value="Bangkok">Bangkok</option>
+                            <option value="Phuket">Phuket</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan="2">Departing</th>
+                    <th colspan="2">Returning</th>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="date" id="Depart" name="Depart">
+                    </td>
+                    <td colspan="2">
+                        <input type="date" id="Return" name="Return">
+                    </td>
+                </tr>
+                <tr>
+                    <th>Adult </th>
+                    <th>Child</th>
+                    <th>Infant</th>
+                    <th style="color: red;">Currency</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" id="quantity" name="quantity" min="1" max="5"> 
+                    </td>
+                    <td>
+                        <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    </td>
+                    <td>
+                        <input type="number" id="quantity" name="quantity" min="1" max="5">
+                    </td>
+                    <td>
+                        <select name="Currency">
+                            <option value="THB">THB</option>
+                            <option value="USD">USD</option>
+                            <option value="JPY">JPY</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            <input type="submit" value="Submit">
+        </div>
+    </body>
+</html>

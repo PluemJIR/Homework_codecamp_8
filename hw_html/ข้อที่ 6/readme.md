@@ -12,8 +12,4 @@ homework 3
 
 
 ## GITHUB.IO
-<<<<<<< HEADgi
 https://pluemjir.github.io/hw-html-3_Phonebook/
-=======
-https://pluemjir.github.io/hw-html-3_Phonebook/
->>>>>>> 4aa90809c89135f5075df15a1a9e3e6a5dd70ecd

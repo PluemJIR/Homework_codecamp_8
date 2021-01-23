@@ -2,7 +2,7 @@
 
 ### Jirayu Somcharoensin 
 
-#### Finish
+#### Homework list
 + HTML ---- DONE (24/01/2021)
 + Git  ---- DONE (Optional)
 + CSS  ---- Processing 

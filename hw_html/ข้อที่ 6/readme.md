@@ -1,5 +1,7 @@
 ### CODECAMP #8
 Jirayu Somcharoensin    
+## GITHUB.IO
+https://pluemjir.github.io/hw-html-3_Phonebook/
 ___
 homework 3
 ให้สร้าง phonebook.html ในแบบ responsive 

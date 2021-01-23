@@ -1,5 +1,7 @@
 ### CODECAMP #8
 Jirayu Somcharoensin    
+## GITHUB.IO
+https://pluemjir.github.io/hw-html-1_Profile/
 ___
 Homework1
 1. สร้างหน้า index.html เป็น homepage 

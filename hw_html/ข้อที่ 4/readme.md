@@ -19,5 +19,3 @@ Homework1
 
 
 
-## GITHUB.IO
-https://pluemjir.github.io/hw-html-1_Profile/

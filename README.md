@@ -1,17 +1,9 @@
-# CODECAMP #8 
-### This is my first repository on github. Almost files in this repository are homework or lab from Codecamp thailand #8.
+# CODECAMP Thailand #8 
 
-    I know that we should write about project in readme but I have no idea yet. So I'll tell you about myself instead.
-___
-## Why am I here?
-#### To make me a Great Developer.
-### *__From zero to HERO__*
-____
-## What should we have before ?
-#### I'm new for coding. So I have only one software to help me now.
-+ Visual Studio Code (with a little add-ons)
-___
-## Want to learn more about Codecamp ?   
-[Codecamp](https://www.facebook.com/CodeCampThailand)
+### Jirayu Somcharoensin 
 
+#### Finish
++ HTML ---- DONE (24/01/2021)
++ Git  ---- DONE (Optional)
++ CSS  ---- Processing 
 ## Be Better together 

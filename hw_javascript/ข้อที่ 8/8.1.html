@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8.1</title>
+</head>
+<body>
+    <!-- 1. คำสั่งต่อไปนี้จะแสดงค่าเป็นอะไร
+        alert( null || 2 || undefined );            // 2
+        alert( alert(1) || 2 || alert(3) );         // alert(1) -> 2
+        alert( 1 && null && 2 );                    // null
+        alert( alert(1) && alert(2) );              // 1 -> undefined
+        alert( null || 2 && 3 || 4 );               // 3 -->
+    <script>
+        alert( null || 2 || undefined );            
+        alert( alert(1) || 2 || alert(3) );         
+        alert( 1 && null && 2 );                    
+        alert( alert(1) && alert(2) );              
+        alert( null || 2 && 3 || 4 );              
+    </script>
+</body>
+</html>

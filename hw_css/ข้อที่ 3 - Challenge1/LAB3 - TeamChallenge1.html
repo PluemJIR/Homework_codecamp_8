@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB3 - TeamChallenge1 (Form)</title>
+    <style>
+        .container {
+                width: 530px;
+                border: 5px solid gainsboro;
+                border-radius: 5px;
+                background-color: white;
+                color: black;
+                padding: 20px;                
+        }
+        table, th, td {
+            font-size: 15px;
+            border: 2px solid white;
+            /* width: px; */
+            /* border-collapse: collapse; */
+            
+        }
+       
+            
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <td style="width: 200px;">Name *:</td>
+                <td style="text-align: right;"><input class="input"></td>
+                <td><button class="Questionmark" type="button">?</button></td>
+            </tr>
+            <tr>
+                <td>Tab Text*:</td>
+                <td style="text-align: right;"><input class="input"></td>
+                <td><button class="Questionmark" type="button">?</button></td>
+            </tr>
+            <tr>
+                <td>URL*:</td>
+                <td colspan="2">http://www.wizehive.com/webform/<input class="inputurl" style="width: 50px;"></td>
+                
+            </tr>
+            <tr>
+                <td colspan="3" style="background-color: rgb(228, 227, 227); height: 30px;">Form Setup</td>
+            </tr>
+            <tr>
+                <td>Form:</td>
+                <td style="text-align: right;">
+                    <select name="form" style="width: 180px;">
+                        <option value="Space"></option>
+                    </select>
+                </td>
+                <td><button class = "edit" type="button">Edit</button></td>
+            </tr>
+            <tr>
+                <td>Logo:</td>
+                <td>no logo uploaded</td>
+                <td><button type="button">Upload Logo</button></td>
+            </tr>
+            <tr>
+                <td>Template Text:</td>
+                <td style="text-align: right;">
+                    <select name="form" style="width: 180px;">
+                        <option value="Space">English</option>
+                    </select>
+                </td>
+                <td><button class="edit" type="button">Edit</button></td>
+            </tr>
+            <tr>
+                <td>Review Form:</td>
+                <td style="text-align: right;">
+                    <select name="form" style="width: 180px;">
+                        <option value="Space">Default</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Review Score:</td>
+                <td style="text-align: right;">
+                    <select name="form" style="width: 180px;">
+                        <option value="Space">Rating</option>
+                    </select>
+                </td>
+                <td><button type="button">Reload Fields</button></td>
+            </tr>
+            <tr>
+                <td>Scoring Type:</td>
+                <td>
+                    <select name="form" style="width: 75px;">
+                        <option value="Space">Average</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Max Score:</td>
+                <td style="text-align: right;">
+                    <input class="input">
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

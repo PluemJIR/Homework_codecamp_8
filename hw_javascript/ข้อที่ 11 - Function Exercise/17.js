@@ -1,16 +1,16 @@
 function draw(n) {
     let row = 0
     while (row < n){
-        let round = 0
+        let round = n-1
         result = ""
-        while (round<n){
-            if (round<=row){
-                result = result + "*"
-            }
-            else {
+        while (round>=0){
+            if (round>row){
                 result = result + "_"
             }
-            round += 1
+            else {
+                result = result + "*"
+            }
+            round -= 1
             //console.log(result+"1")
         }
         row += 1

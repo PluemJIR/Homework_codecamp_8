@@ -7,7 +7,7 @@
 + CSS:Phase1  ---- DONE (27/01/2021)
 + CSS:Phase2 ---- Waiting for New Lectures
 + Basic:Javascript ---- Processing (11/12)
-+ Advance:Javascript ---- Processing (0/12)  
++ Advance:Javascript ---- Processing (7/12)  
   
 ### Optional list
 + Git  ---- DONE

@@ -1,9 +1,9 @@
 function draw(n) {
-    let row = 0;
-        while (row < n) {
-            let col = 1;
+    let row = n-1;
+        while (row >= 0) {
+            let col = n+(n-1);
             result = ""
-            while (col <= n+(n-1)) {
+            while (col > 0) {
                 if (col == n+row || col == n-row || col == n) {
                     result = result + "*"
                 }
@@ -13,12 +13,11 @@ function draw(n) {
                 else  {
                     result = result + "-"
                 }
-                col += 1
+                col -= 1
                 //  console.log(result + "xx")
             }
             console.log(result)
-            row += 1 
+            row -= 1 
             // console.log(row)
         }
-        
     }

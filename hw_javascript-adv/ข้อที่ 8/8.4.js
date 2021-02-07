@@ -1,6 +1,4 @@
-let string = +prompt("$");
-let rate = +prompt("Rate?")
 function extractCurrencyValue(string, rate){
-    return string*rate
+    let amount = +string.slice(1,string.length)
+    return amount*rate
 }
-console.log(extractCurrencyValue(string, rate))

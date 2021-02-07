@@ -1,4 +1,3 @@
-let str = prompt("Str ?");
 function checkSpam(str) {
     if (str.includes("xxx") || str.includes("viagra") ) {
         return true
@@ -6,4 +5,3 @@ function checkSpam(str) {
         return false ;
     }
 }
-console.log(checkSpam(str))

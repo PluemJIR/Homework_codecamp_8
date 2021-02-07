@@ -1,7 +1,5 @@
-let str = prompt("Str ?");
-function ucFirst(str) {
-    let l = str.length
-    let rest = str.slice(1,l)
-    return str[0].toUpperCase()+rest;
+function ucFirst(string) {
+    let l = string.length
+    let rest = string.slice(1,l)
+    console.log( string[0].toUpperCase()+rest ); 
 }  
-console.log( ucFirst(str)  ); 

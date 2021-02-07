@@ -1,9 +1,7 @@
-let str = prompt("String?");
-let maxlength = +prompt("Maximum length")
-let result = ""
 function truncate(str, maxlength) {
+    let result = ""
     if (str.length > maxlength) {
-        let x = str.slice(0,maxlength)
+        let x = str.slice(0,maxlength-1)
         result = x + "..."
         console.log(result)
     }
@@ -12,4 +10,3 @@ function truncate(str, maxlength) {
         console.log(result)
     }
 }
-console.log(truncate(str, maxlength))

@@ -1,3 +1,6 @@
+### CODECAMP #8
+Jirayu Somcharoensin    
+___
 Exercise Methods ของ Array
 
 1.ให้สร้าง array2 จาก array1 ตามที่โจทย์กำหนด โดยใช้ฟังก์ชัน Array.map()

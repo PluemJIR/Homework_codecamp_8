@@ -1,3 +1,6 @@
+### CODECAMP #8
+Jirayu Somcharoensin    
+___
 Exercise Array  
 
 1.ผลลัพธ์ของความยาว array คืออะไร  

@@ -1,3 +1,6 @@
+### CODECAMP #8
+Jirayu Somcharoensin    
+___
 Exercise String  
 1.เขียนฟังก์ชัน ucFirst(string) โดยทำคืนค่าเป็น string เดิม แต่ตัวแรกของ string กลายเป็นพิมพ์ใหญ่  
 2.เขียนฟังก์ชันที่ checkSpam โดยถ้าข้อความดังกล่าวมีคำว่า “xxx” หรือ “viagra” ให้คืนค่าเป็น true   ถ้าไม่มีให้คืนค่าเป็น false  

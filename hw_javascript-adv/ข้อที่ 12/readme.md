@@ -1,3 +1,6 @@
+### CODECAMP #8
+Jirayu Somcharoensin    
+___
 Exercise Keys, Values และ Entities
 
 1. กำหนดให้ salaries เป็น Object ให้เขียนฟังก์ชัน sumSalaries(salaries) ที่คืนค่าเป็นผลผมรวมของเงินเดือน 

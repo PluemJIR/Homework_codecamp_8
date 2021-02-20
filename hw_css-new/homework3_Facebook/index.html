@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Homework - Facebook</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            font-family: helvetica;
+            margin: 0;
+            padding: 0;            
+        }
+        .container {
+            display: flex;
+            background-color: #e8ecf8;
+            /* background-color: #dfe3ee; */
+        }
+        .left {
+            /* border: 1px solid black; */
+            width: 55%;
+            height: 100vh;
+        }
+        .right {
+            /* border: 1px solid black; */
+            width: 45%;
+            height: 100vh;
+            margin: 0;
+        }
+        .fb {
+            font-size: 70px;
+            font-weight: bolder;
+            color:#4f73c0;
+            margin-bottom: 20px;
+        }
+        .article {
+            font-size: 35px;
+            color:black;
+        }
+        .lcon {
+            margin:240px 0 0 230px;
+            /* border: 1px solid black; */
+            width: 650px;
+            /* padding: 0 0 0 ; */
+        }
+        .form {
+            width: 500px;
+            height: 430px;
+            background-color: white;
+            margin: 160px 0 0 30px;
+            border-radius: 10px;
+            box-shadow: 1px 5px 10px gray ;
+        }
+        #mail {
+            height: 60px;
+            width: 85%;
+            margin: 20px 0 0 25px;
+            border-radius: 5px;
+            font-size: 20px;
+            padding-left: 20px;
+            border: 0.5px solid rgb(201, 201, 201);
+        }
+        #pass {
+            height: 60px;
+            width: 85%;
+            margin: 15px 0 0 25px;
+            border-radius: 5px;
+            font-size: 20px;
+            padding-left: 20px;
+            border: 0.5px solid rgb(201, 201, 201);
+        }
+        #login {
+            height: 60px;
+            width: 90%;
+            margin: 25px 0 0 25px;
+            border-radius: 5px;
+            font-size: 25px;
+            padding-left: 20px;
+            color: white;
+            font-weight: bolder;
+            background-color:#4f73c0;
+            border: none;
+        }
+        form > div {
+            color:#3b5998;
+            font-size: 18px;
+            margin: 25px 0 0 170px;
+        }
+        #cna {
+            height: 60px;
+            width: 50%;
+            margin: 0 0 0 130px ;
+            border-radius: 5px;
+            font-size: 20px;
+            padding-left: 20px;
+            color: white;
+            font-weight: bolder;
+            background-color:#43ad40;
+            border: none;
+        }
+        .create {
+            font-size: 18px;
+            /* border: 1px solid black; */
+            width: 500px;
+            margin: 40px 0 0 30px;
+            text-align: center;
+        }
+        .create a {
+            font-weight: bolder;
+            text-decoration: none;
+        }
+        .footer {
+            background-color: white;
+            height: 25vh;
+            width: 100%;
+        }
+        .fcon {
+            width: 75%;
+            height: 25vh;
+            margin: auto;
+            color: gray;
+            /* border: 1px solid black; */
+        }
+        .language {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 30px 0 15px 0;
+            justify-content: flex-start;
+        }
+        .language div {
+            margin: 5px 10px 5px 10px;
+        }
+        .other {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px 0 0 0 ;
+            justify-content: flex-start;
+            /* border: 1px solid black; */
+            height: 100px;
+        }
+        .other div {
+            margin :0 10px 0 10px;
+            /* border: 1px solid black; */
+        }
+        @media (max-width:850px) {
+            .container {
+                flex-flow: column;
+                height: 100vh;
+            }
+            .left {
+                width: auto;
+                height: auto;
+                /* border: 1px solid black; */
+                text-align: center;
+            }
+            .lcon {
+                margin: 35px auto;
+            }
+            .article {
+                margin: 0 70px 0 70px;
+                font-size: 30px;
+            }
+            .right {
+                width: auto;
+                height: auto;
+            }
+            .form {
+                margin: 0 auto;
+            }
+            .create {
+                margin: 40px auto 0;
+            }
+            .fcon {
+                width: 90%;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class = "container">
+        <div class = "left">
+            <div class="lcon">
+                <div class = "fb">facebook</div>
+                <div class = "article">Facebook helps you connect and share with the people in your life.</div>
+            </div>
+        </div>
+        <div class = "right">
+            <div class = "form">
+                <form>
+                    <label for="mail"></label>
+                    <input type="text" id="mail" name="mail" placeholder="Email address or phone number">
+                    <label for="pass"></label>
+                    <input type="text" id="pass" name="pass" placeholder="Password">
+                    <button id="login">Log in</button>
+                    <div>Forgotten password?</div>
+                    <hr style="margin: 25px;">
+                    <button id="cna">Create New Account</button>
+                </form>
+            </div>
+            <div class = "create"><a href="" style="text-decoration:none;">Create a Page</a> for a celebrity, band or business.</div>
+        </div>
+    </div>
+    <div class="footeer">
+        <div class="fcon">
+            <div class="language">
+                <div>English (UK)</div>
+                <div>ภาษาไทย</div>
+                <div>日本語</div>
+                <div>中文(简体)</div>
+                <div>Tiếng Việt</div>
+                <div>Français (France)</div>
+                <div>Deutsch</div>
+                <div>Русский</div>
+                <div>Español</div>
+                <div>Português (Brasil)</div>
+                <div>Italiano</div>
+            </div>
+            <hr>
+            <div class="other">
+                <div>Sign Up</div>
+                <div>Log In</div>
+                <div>Messenger</div>
+                <div>Facebook Lite</div>
+                <div>Watch</div>
+                <div>People</div>
+                <div>Pages</div>
+                <div>Page categories</div>
+                <div>Places</div>
+                <div>Games</div>
+                <div>Locations</div>
+                <div>Marketplace</div>
+                <div>Facebook Pay</div>
+                <div>Groups</div>
+                <div>Jobs</div>
+                <div>Oculus</div>
+                <div>Portal</div>
+                <div>Instagram</div>
+                <div>Local</div>
+                <div>Fundraisers</div>
+                <div>Services</div>
+                <div>Voting Information Centre</div>
+                <div>About</div>
+                <div>Create ad</div>
+                <div>Create Page</div>
+                <div>Developers</div>
+                <div>Careers</div>
+                <div>Privacy</div>
+                <div>Cookies</div>
+                <div>AdChoices</div>
+                <div>Terms</div>
+                <div>Help</div>
+                <div>Settings</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

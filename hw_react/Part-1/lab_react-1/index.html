@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REACT</title>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const run = function() {
+            const element1 = React.createElement("h1",{style: {color: "green"}},"Resume")
+            const element2 = React.createElement("h2",null,"Jirayu Somcharoensin")
+            const element3 = React.createElement("p", null,"Favorite : Red, Height : 177 cm, Weight : 72 kg, Motto : Better late than never")
+            return(
+                <div>{element1},
+                {element2},
+                {element3}</div>  
+            )
+        }
+        
+        ReactDOM.render(run(),document.getElementById("root"));
+    </script>
+</body>
+</html>

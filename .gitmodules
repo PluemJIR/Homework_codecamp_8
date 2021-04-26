@@ -1,0 +1,3 @@
+[submodule "express-sequalize-jest-example"]
+	path = express-sequalize-jest-example
+	url = https://github.com/paiboonpa/express-sequalize-jest-example
